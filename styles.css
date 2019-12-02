@@ -1,0 +1,199 @@
+.header {
+    background-color: #50b848;
+    height: 150px;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 60px;
+    margin-left: 55px;
+}
+.li-header {
+    float: left;
+    list-style: none;
+    padding: 20px;
+}
+.nav-header {
+    float: right;
+    margin-top: 40px;
+    margin-right: 450px;
+}
+
+a {
+    text-decoration:none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18;
+    color: white;
+}
+li:hover a {
+    color: black
+}
+
+.container {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.card {
+    background-color: white;
+    width: 800px;
+    height: 555px;
+    border: grey 0.4px solid;
+    margin: auto; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.img-card {
+    width: 398px;
+    margin-left: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card-info {
+    display: inline-block; 
+    width: 300px;
+    margin: 0px 30px 60px;
+    vertical-align: middle;
+
+}
+
+.card-title {
+    font-family: 'Roboto Slab', serif;
+    margin: auto; 
+    text-align: center;
+}
+
+.price {
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+.card-description-container {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.btn {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+.btn-input {
+    background-color:#50b848;
+    color: white;
+    font-size: 12px;
+    border: grey 0.4px solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 6px 8px 6px 8px;
+    margin: 15px;
+}
+
+.btn-colors {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+.button-color1 {
+    background-color: rgb(52, 52, 250);
+    border: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-color2 {
+    background-color: rgb(255, 55, 55);
+    border: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-color3 {
+    background-color: rgb(95, 228, 95);
+    border: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.size {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    
+}
+ 
+.select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 50px;
+}
+select:focus{ outline: none;}
+
+.list-footer {
+    background-color:  #50b848;
+    width: 100%;
+    height: 300px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14;
+    color: white;
+}
+
+.item-1 {
+    float: left;
+    width: 350px; 
+}
+
+.item-2 {
+    float: left;
+    width: 350px;
+}
+
+.item-3 {
+    float: left;
+    width: 350px;
+}
+
+li {
+    list-style: none;
+}
+
+li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+h5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18;
+    color: white;
+    padding-inline-start: 40px;
+    margin-block-end: 1em;
+}
+ 
+.body {
+    display: block;
+    margin: 0px;
+}
